@@ -7,7 +7,7 @@ console.log(nome.length)// 7
 console.log(nome.indexOf('i'))// 1 tudo em javascript começa em 0 sendo a posiçao da letra i na 1;
 
 // a propriedade lastIndexOf retorna a ultima posição encontrada do caractere passado por parametro;
-console.log(nome.indexOf('r'))// 4 
+console.log(nome.lastIndexOf('r'))// 4 
 
 // a propriedade toUpperCase retorna uma nova string convertendo as letras para maiusculas;
 console.log(nome.toUpperCase())// RICARDO;
